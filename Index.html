@@ -58,16 +58,16 @@
         <div class="d-flex" id="wrapper">
             <!-- Sidebar-->
             <div class="border-end bg-light" id="sidebar-wrapper">
-                <div class="sidebar-heading border-bottom bg-light">Reto 2<br>Grupo 34<br>Grupo 8</div>
+                <div class="sidebar-heading border-bottom bg-light">Reto 3 4 5<br>Grupo 34<br>Grupo 8</div>
                 <div class="list-group list-group-flush">
                   <a class="list-group-item list-group-item-action list-group-item-light p-3" href="javascript:agregarCategoria()">Crear Categoria</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="javascript:agregarMotos()">Crear Motocicleta</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="javascript:agregarClientes()">Registrar Cliente</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="javascript:agregarMensajes()">Registrar Mensaje</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="javascript:agregarReserva()">Registrar Reserva</a>
-                    <!-- <a class="list-group-item list-group-item-action list-group-item-light p-3" href="javascript:restGet('/ords/admin/moto/moto')">Motocicletas</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="javascript:restGet('/ords/admin/client/client')">Clientes</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="javascript:restGet('/ords/admin/message/message')">Mensajes</a> -->
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="javascript:agregarInforme()">Informes</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="javascript:agregarAdmin()">Administradores</a>
+                    <!--<a class="list-group-item list-group-item-action list-group-item-light p-3" href="javascript:restGet('/ords/admin/message/message')">Mensajes</a> -->
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="javascript:mostrarEquipo()">Equipo de trabajo</a>
                 </div>
             </div>
@@ -83,6 +83,8 @@
                 <!-- Page content-->
                 <div class="container-fluid" id="contenedor">
                     <!-- inicio diseño -->
+                    
+
                   <!-- fin diseño -->
                 </div>
             </div>
@@ -104,6 +106,8 @@
                     </div>
                     <div class="modal-body">
                     <div id="actualizar">
+                 
+
                     </div>
                     </div>
                     
@@ -120,8 +124,8 @@
         <script>
           function prueba(){
             cargarselect("/Motorbike/all","motorbike")
-                  window.setTimeout(500);
-                  cargarselect("/Client/all","client")
+            window.setTimeout(500);
+            cargarselect("/Client/all","client")
           }
         </script>
     </body>
